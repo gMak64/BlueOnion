@@ -27,6 +27,6 @@ ON sl1.satellite_id = sl2.satellite_id AND sl1.create_date = sl2.closest_date;
 ```
 
 ## Task 4
-The Python script  `cloeest_sat.py` handles this task. Once the database from **Task 1** is up and running, this can be used to query for the given task. It will ask you for an ISO formatted timestamp, a latitude, and a longtitude. Once you provide 3 valid parameters, it will return the closest satellite.
+The Python script  `closest_sat.py` handles this task. Once the database from **Task 1** is up and running, this can be used to query for the given task. It will ask you for an ISO formatted timestamp, a latitude, and a longtitude. Once you provide 3 valid parameters, it will return the closest satellite.
 
 This assumes that the script from **Task 2** has been used to load the database, and that you have `haversine` imported.
